@@ -27,7 +27,7 @@ public class Inmet implements Observador{
         System.out.println(nome);
         System.out.println("Temperatura: " + String.valueOf(temperatura));
         System.out.println("Umidade: " + String.valueOf(umidade));
-        System.out.println("Pressão" + String.valueOf(pressao));
+        System.out.println("Pressão: " + String.valueOf(pressao));
     }
     
 }

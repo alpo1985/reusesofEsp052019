@@ -18,12 +18,12 @@ public class ClimaTempo implements Observador{
     
     @Override
     public void atualizar(double temperatura, double umidade, double pressao) {
-        System.out.println("");
+        System.out.println("--------------------------------------------------");
         System.out.println("ATUALIZADO");
         System.out.println(nome);
         System.out.println("Temperatura: " + String.valueOf(temperatura));
         System.out.println("Umidade: " + String.valueOf(umidade));
-        System.out.println("Pressão" + String.valueOf(pressao));
+        System.out.println("Pressão: " + String.valueOf(pressao));
     }
     
 }
