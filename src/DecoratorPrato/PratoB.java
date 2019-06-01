@@ -3,16 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package DecoratorPrato;
+package br.com.alfa.michael.Decorator;
 
 /**
  *
  * @author Aluno
  */
-public class Prato_B extends Pedido {
-    public Prato_B(){
-           nome = "Prato B";
-           preco = 12.0;
-    }
+public class PratoB extends Prato{
     
+   
+      public PratoB(){
+        Nome = "Prato B";
+    }
+    public double preco(){
+        return 12.00;
+    }
 }

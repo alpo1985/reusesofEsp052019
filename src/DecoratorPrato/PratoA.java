@@ -9,19 +9,12 @@ package br.com.alfa.michael.Decorator;
  *
  * @author Aluno
  */
-public class CebolaFrita extends Adcionais{
+public class PratoA extends Prato{
    
-    
-    private Prato adcionais;
-    public CebolaFrita (Prato adcionais){
-        this.adcionais = adcionais;
+      public PratoA(){
+        Nome = "Prato A";
     }
-    
-    public String getNome(){
-        return adcionais.getNome()+ ", Cebola Frita";
-    }
-    
     public double preco(){
-        return 1.5 + adcionais.preco();
+        return 10.00;
     }
 }
